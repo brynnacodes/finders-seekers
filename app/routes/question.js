@@ -38,6 +38,16 @@ export default Ember.Route.extend({
     destroyAnswer(answer) {
       answer.destroyRecord();
       this.transitionTo('index');
-    }
+    },
+
+    updateAnswer(answer, params) {
+      Object.keys(params).forEach(function(key) {
+        if(params[key]!==undefined) {
+          answer.set(key,params[key]);
+        }
+      });
+      answer.save();
+      this.transitionTo('index');
+    },
   }
 });

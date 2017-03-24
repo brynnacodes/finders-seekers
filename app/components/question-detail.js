@@ -25,6 +25,10 @@ export default Ember.Component.extend({
 
     destroyAnswer(answer) {
       this.sendAction('destroyAnswer', answer);
+    },
+
+    updateAnswer(answer, params) {
+      this.sendAction('updateAnswer', answer, params);
     }
   }
 });

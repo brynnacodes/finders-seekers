@@ -1,5 +1,6 @@
 body {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  background-color: black;
 }
 
 .content-div {
@@ -11,7 +12,7 @@ body {
 
 .header {
   text-align: center;
-  font-family: 'Fira Sans Condensed', sans-serif;
+  font-family: 'Orbitron', sans-serif;
   text-transform: uppercase;
 }
 
@@ -32,6 +33,7 @@ body {
   bottom: 0;
   left: 0;
   line-height: 50px;
+  color: white;
 }
 
 .question {
@@ -43,4 +45,9 @@ body {
 
 .navbar-brand img {
   height:30px;
+}
+
+.btn {
+  display: block;
+  margin: 5px;
 }
