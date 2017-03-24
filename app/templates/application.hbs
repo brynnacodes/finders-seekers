@@ -1,21 +1,19 @@
 <nav class="navbar navbar-default">
   <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
       <a class="navbar-brand" href="#"><img src="http://icons.iconarchive.com/icons/flat-icons.com/flat/512/Ufo-icon.png"></a>
     </div>
-
-    <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li class="active">{{#link-to 'about'}}About{{/link-to}}<span class="sr-only">(current)</span></li>
+        <li class="active">{{#link-to 'index'}}Home{{/link-to}}<span class="sr-only">(current)</span></li>
         <li>{{#link-to 'contact'}}Contact{{/link-to}}</li>
+        <li>{{#link-to 'about'}}About{{/link-to}}</li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li>{{#link-to 'new-question'}}Ask a question!{{/link-to}}</li>
       </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
+    </div>
+  </div>
 </nav>
 
 <div class="content-div container-fluid">
@@ -27,7 +25,5 @@
 
 </div>
 <div class="footer">
-  <p id="footer-text">
-    ©Brynna Klamkin-McCarter
-  </p>
+  <p id="footer-text">©Brynna Klamkin-McCarter</p>
 </div>

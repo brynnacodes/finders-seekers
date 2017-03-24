@@ -28,11 +28,11 @@
           {{input value=content id="content" placeholder=question.content}}
         </div>
 
-        <button {{action 'update' question}}>Save</button>
+        <button class="btn" {{action 'update' question}}>Save</button>
       </form>
     </div>
   {{else}}
-    <button class="btn" {{action 'updateQuestionForm'}}>Update Post</button>
+    <button class="btn" {{action 'updateQuestionForm'}}>Update Question</button>
   {{/if}}
 </div>
 

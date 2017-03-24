@@ -18,7 +18,6 @@ export default Ember.Component.extend({
         content: this.get('content'),
       };
       this.set('updateAnswerForm', false);
-      console.log(params);
       this.sendAction('updateAnswer', answer, params);
     }
   }
