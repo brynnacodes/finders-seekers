@@ -21,7 +21,7 @@ module.exports = function(environment) {
       authDomain: "finders-keepers-1a4ee.firebaseapp.com",
       databaseURL: "https://finders-keepers-1a4ee.firebaseio.com",
       storageBucket: "finders-keepers-1a4ee.appspot.com",
-    }
+    },
 
     APP: {
       // Here you can pass flags/options to your application instance
