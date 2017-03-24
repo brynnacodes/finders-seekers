@@ -8,6 +8,11 @@
   <button class="btn" {{action 'delete' question}}>Delete Question</button>
 </div>
 
+<h2>Answers:</h2>
+{{#each question.answers as |answer|}}
+  {{answer-tile answer=answer}}
+{{/each}}
+
 <div class="update-question">
   {{#if updateQuestionForm}}
     <h4>Update {{question.author}}'s {{question.type}}</h4>
