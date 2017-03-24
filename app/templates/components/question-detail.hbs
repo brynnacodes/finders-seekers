@@ -1,6 +1,37 @@
-<div class="question">
+<div class="question-display">
   <h1>{{question.title}}<br></h1>
   <h4>By: {{question.author}}</h4>
   <p>{{question.content}}<br></p>
+</div>
+
+<div class="delete-question">
   <button class="btn" {{action 'delete' question}}>Delete Question</button>
+</div>
+
+<div class="update-question">
+  {{#if updateQuestionForm}}
+    <h4>Update {{question.author}}'s {{question.type}}</h4>
+    <div>
+      <form>
+        <div class="form-group">
+          <label for="author">Author</label>
+          {{input value=author id="author" placeholder=question.author}}
+        </div>
+
+        <div class="form-group">
+          <label for="title">Title</label>
+          {{input value=title id="title" placeholder=question.title}}
+        </div>
+
+        <div class="form-group">
+          <label for="content">Body</label>
+          {{input value=content id="content" placeholder=question.content}}
+        </div>
+
+        <button {{action 'update' question}}>Save</button>
+      </form>
+    </div>
+  {{else}}
+    <button class="btn" {{action 'updateQuestionForm'}}>Update Post</button>
+  {{/if}}
 </div>
