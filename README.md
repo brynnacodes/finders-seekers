@@ -53,8 +53,7 @@ Specify what it takes to deploy your app.
 ## Planning
 
 1. Configuration/dependencies
-  * Bootstrap: package.json
-  * jQuery: package.json
+  * Bootstrap: located in package.json
   * All other other dependencies are installed by Ember and located in package.json
 
 2. Specs
@@ -80,9 +79,11 @@ Specify what it takes to deploy your app.
   * Display update post form with `update-question` component
 
 4. UX/UI
-  * Include and modify bootstrap/materialize/Sass etc.
-  * Develop custom style
+  * Develop custom style with css/Bootstrap
 
 5. Polish
   * Refactor and DRY up code where appropriate
-  * Make README (more) awesome
+  * Make README (more) awesome!
+
+6. Future Additions:
+  * Add tags/categories to questions
