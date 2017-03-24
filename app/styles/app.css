@@ -1,5 +1,22 @@
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+.content-div {
+  background-image: url("http://pre09.deviantart.net/27e1/th/pre/i/2008/157/e/9/i_want_to_believe_by_voiceless_one.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 85vh;
+}
+
 .header {
   text-align: center;
+  font-family: 'Fira Sans Condensed', sans-serif;
+  text-transform: uppercase;
+}
+
+.header h1 {
+  font-size: 60px;
 }
 
 .footer {
@@ -14,6 +31,16 @@
   height: 50px;
   bottom: 0;
   left: 0;
-  border-top: 1px solid black;
   line-height: 50px;
+}
+
+.question {
+  border: 1px solid black;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.3);
+  margin-bottom: 10px;
+}
+
+.navbar-brand img {
+  height:30px;
 }
