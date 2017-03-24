@@ -1,5 +1,6 @@
 <div class="question">
-  <h1>{{model.title}}<br></h1>
-  <h4>By: {{model.author}}</h4>
-  <p>{{model.content}}<br></p>
+  <h1>{{question.title}}<br></h1>
+  <h4>By: {{question.author}}</h4>
+  <p>{{question.content}}<br></p>
+  <button class="btn" {{action 'delete' question}}>Delete Question</button>
 </div>
