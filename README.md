@@ -1,7 +1,6 @@
 # finders-keepers
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+A question and answer message board build with Ember!
 
 ## Prerequisites
 
@@ -50,3 +49,40 @@ Specify what it takes to deploy your app.
 * Development Browser Extensions
   * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
   * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
+
+## Planning
+
+1. Configuration/dependencies
+  * Bootstrap: package.json
+  * jQuery: package.json
+  * All other other dependencies are installed by Ember and located in package.json
+
+2. Specs
+  * Spec 1: User can create and save a new question with content, an author, and a date
+  * Spec 2: User can edit and delete questions
+  * Spec 3: User can view all questions on the index/homepage route
+  * Spec 4: Users can view individual questions on the question/id route
+  * Spec 5: User can add answers to questions with an author and content
+  * Spec 6: User can edit and delete questions
+
+3. Integration
+  * Initial routes or index pages with all dependencies in Controller/index.html head
+  * Template/html page for `index`
+  * Template/html page for `about`
+  * Template/html page for `contact`
+  * Template/html page for `new-question`
+  * Template/html page for `question`
+  * Display all posts on index with `index-tile` component
+  * Display individual post content with `question-detail` component
+  * Display update post form with `update-question` component
+  * Display comments with `answer-tile` component
+  * Display new comment form with `new-answer` component
+  * Display update post form with `update-question` component
+
+4. UX/UI
+  * Include and modify bootstrap/materialize/Sass etc.
+  * Develop custom style
+
+5. Polish
+  * Refactor and DRY up code where appropriate
+  * Make README (more) awesome
