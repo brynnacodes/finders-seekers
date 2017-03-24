@@ -1,0 +1,10 @@
+{ "questions": [{
+    "author": "John",
+    "title": "Why is the sky blue?",
+    "content": "I know that it is blue but why?"
+  }, {
+    "author": "Jane",
+    "title": "Birds",
+    "content": "Approximately how many species of birds are there in North America?"
+  }]
+}
